@@ -2,7 +2,7 @@
 The code contains a stripped down blueprint for an MLP Classifier; note that it is not designed to be a finished product. It simply gives a starting point for the construction of a more complex model
 
 The architecture is defined with a dictionary which takes the form {'n_layers': n, 'unit_count': m, 'activation': func}. 
-n_layers defines the number of hidden layers the model generates, and unit_count gives the nubmer of units in each layer. Note that these must be given in the form of some iterator (tuple, list, etc) and must appear in the desired order
+n_layers defines the number of hidden layers the model generates, and unit_count gives the number of units in each layer. Note that these must be given in the form of some iterator (tuple, list, etc) and must appear in the desired order
 
 activation is used to define the type of activation function (if any) to be used. Again, these must appear in the correct order, if specified. Additionally, if one activation function is defined, the activation function for all layers must be defined i.e. one cant define 3 layers and then only pass one activation function.
 
