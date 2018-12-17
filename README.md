@@ -13,3 +13,8 @@ hidden_layers = {'n_layers': 3, 'unit_count': (50, 100, 25), 'activation': (tf.n
 A demo version is also included which is trained using the iris data set. Out of the box, it achieves an accuracy of 80%; this can be greatly improved by making a few simple adjustments (such as adding some regularization routine)
 
 Again, this is not intended as a finished product; it is simply designed as a starting point, particulary for people new to TensorFlow (such as myself)
+
+Update 17/12/2018
+-----------------
+
+SLight extension was made to the model to include L2 regularization and dropout to control overfitting
